@@ -3,9 +3,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import PlayerContext from "./PlayerContext";
 
-function Player({number}) {
-
-    let color = useContext(PlayerContext)
+function Player({number, color}) {
 
     return (
         <Card style={{backgroundColor: color}}>
