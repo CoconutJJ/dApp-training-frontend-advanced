@@ -8,9 +8,7 @@ function Routes() {
         <Router>
             <Switch>
                 <Route path="" exact>
-                    <PlayerProvider>
-                        <Lobby />
-                    </PlayerProvider>
+                    <Lobby />
                 </Route>
             </Switch>
         </Router>
